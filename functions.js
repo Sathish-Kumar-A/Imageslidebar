@@ -9,7 +9,7 @@ initial=function(){
     images.src=arrOfImage[index];
     index++;
     index=index%(arrOfImage.length)
-    timer=setTimeout(initial,1000*4)
+    timer=setTimeout(initial,1000*2)
 };
 function next(){
     clearTimeout(timer);
